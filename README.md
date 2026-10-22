@@ -1,5 +1,7 @@
 # Layer Flock Performance: Laying Curve, Egg Quality and In-Cycle Forecasting
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://layer-flock-planner.streamlit.app/)
+
 Machine learning models that plan the laying curve, egg weight and egg quality of a layer flock before it starts laying, and forecast hen-day production of a running flock 1 to 12 weeks ahead. The models are served through a REST API in a Docker container and through a Streamlit app.
 
 **Author:** Mahdi Dadgar, PhD in Animal Nutrition and Feed Science
