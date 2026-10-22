@@ -1,0 +1,48 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Run the test suite
+        run: pytest -q
+
+  docker:
+    runs-on: ubuntu-latest
+    needs: tests
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the API image
+        run: docker build -t layer-flock-api .
+      - name: Start the container
+        run: docker run -d -p 8000:8000 --name api layer-flock-api
+      - name: Wait for the health check
+        run: |
+          for i in $(seq 1 30); do
+            curl -sf localhost:8000/health && exit 0
+            sleep 2
+          done
+          docker logs api
+          exit 1
+      - name: Call the prediction endpoints
+        run: |
+          curl -sf -X POST localhost:8000/predict/flock \
+            -H "Content-Type: application/json" \
+            -d @docs/api_examples/plan_request.json \
+            | python3 -c "import json, sys; print(json.load(sys.stdin)['summary'])"
+          curl -sf -X POST localhost:8000/forecast \
+            -H "Content-Type: application/json" \
+            -d @docs/api_examples/forecast_request.json \
+            | python3 -c "import json, sys; print(json.load(sys.stdin)['forecast'][:2])"

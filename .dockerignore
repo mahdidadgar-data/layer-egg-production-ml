@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+notebooks
+reports
+docs
+tests
+data/raw
+data/truth
+app.py
+.streamlit

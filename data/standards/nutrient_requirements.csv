@@ -1,0 +1,4 @@
+phase,from_week,to_week,crude_protein_g,calcium_g,available_p_g,dig_lysine_g,dig_methionine_g,dig_met_cys_g,dig_threonine_g,linoleic_acid_g,sodium_g
+1,19,50,18.50,4.10,0.42,0.82,0.41,0.74,0.57,2.00,0.18
+2,50,70,18.00,4.40,0.40,0.80,0.40,0.72,0.56,1.60,0.18
+3,70,100,17.00,4.50,0.38,0.77,0.39,0.69,0.54,1.30,0.18

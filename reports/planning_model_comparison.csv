@@ -1,0 +1,22 @@
+target,model,rmse,mae,r2,response_error
+hen_day_pct,Breed standard,9.0074,6.9059,0.6276,
+hen_day_pct,Training average by strain and age,6.0432,4.0122,0.8323,
+hen_day_pct,"Ridge, broken-line features",5.6582,3.5634,0.853,0.5009
+hen_day_pct,"XGBoost, monotonic",4.6032,3.2819,0.9027,0.6209
+hen_day_pct,"XGBoost, unconstrained",4.5175,3.2277,0.9063,0.5274
+egg_weight_g,Breed standard,1.8477,1.5429,0.8746,
+egg_weight_g,Training average by strain and age,1.908,1.5875,0.8663,
+egg_weight_g,"Ridge, broken-line features",1.189,0.9674,0.9481,0.0157
+egg_weight_g,"XGBoost, monotonic",1.2856,1.0424,0.9393,0.0233
+egg_weight_g,"XGBoost, unconstrained",1.4348,1.179,0.9244,0.0908
+breaking_strength_n,Breed standard,3.2328,2.4827,0.7654,
+breaking_strength_n,Training average by strain and age,3.5255,2.8111,0.7209,
+breaking_strength_n,"Ridge, broken-line features",2.5861,2.0133,0.8498,0.0848
+breaking_strength_n,"XGBoost, monotonic",2.7751,2.1741,0.8271,0.0678
+breaking_strength_n,"XGBoost, unconstrained",2.7276,2.1476,0.833,0.2626
+haugh_units,Breed standard,2.0833,1.6826,0.699,
+haugh_units,Training average by strain and age,2.0782,1.6769,0.7005,
+haugh_units,"Ridge, broken-line features",2.024,1.6279,0.7159,0.0045
+haugh_units,"XGBoost, monotonic",2.1393,1.6964,0.6826,0.0362
+haugh_units,"XGBoost, unconstrained",2.0445,1.6352,0.7101,0.0852
+hen_day_pct,"Yang curve, parameters from flock plan",4.9003,3.5814,0.8898,

@@ -1,0 +1,145 @@
+scenario,target,model,mean_change
+Amino acids -10 %,hen_day_pct,Truth,-9.7471
+Amino acids -10 %,hen_day_pct,"Ridge, broken-line features",-7.9949
+Amino acids -10 %,hen_day_pct,"XGBoost, monotonic",-11.2062
+Amino acids -10 %,hen_day_pct,"XGBoost, unconstrained",-9.318
+Amino acids -10 %,egg_weight_g,Truth,-1.0353
+Amino acids -10 %,egg_weight_g,"Ridge, broken-line features",-1.047
+Amino acids -10 %,egg_weight_g,"XGBoost, monotonic",-0.9336
+Amino acids -10 %,egg_weight_g,"XGBoost, unconstrained",-0.6772
+Amino acids -10 %,breaking_strength_n,Truth,0.0
+Amino acids -10 %,breaking_strength_n,"Ridge, broken-line features",0.0
+Amino acids -10 %,breaking_strength_n,"XGBoost, monotonic",0.0
+Amino acids -10 %,breaking_strength_n,"XGBoost, unconstrained",0.0
+Amino acids -10 %,haugh_units,Truth,-0.4456
+Amino acids -10 %,haugh_units,"Ridge, broken-line features",-0.4218
+Amino acids -10 %,haugh_units,"XGBoost, monotonic",-0.5349
+Amino acids -10 %,haugh_units,"XGBoost, unconstrained",0.0559
+Amino acids -5 %,hen_day_pct,Truth,-4.2177
+Amino acids -5 %,hen_day_pct,"Ridge, broken-line features",-3.8309
+Amino acids -5 %,hen_day_pct,"XGBoost, monotonic",-4.943
+Amino acids -5 %,hen_day_pct,"XGBoost, unconstrained",-3.9684
+Amino acids -5 %,egg_weight_g,Truth,-0.5676
+Amino acids -5 %,egg_weight_g,"Ridge, broken-line features",-0.536
+Amino acids -5 %,egg_weight_g,"XGBoost, monotonic",-0.524
+Amino acids -5 %,egg_weight_g,"XGBoost, unconstrained",-0.3693
+Amino acids -5 %,breaking_strength_n,Truth,0.0
+Amino acids -5 %,breaking_strength_n,"Ridge, broken-line features",0.0
+Amino acids -5 %,breaking_strength_n,"XGBoost, monotonic",0.0
+Amino acids -5 %,breaking_strength_n,"XGBoost, unconstrained",0.0
+Amino acids -5 %,haugh_units,Truth,-0.1906
+Amino acids -5 %,haugh_units,"Ridge, broken-line features",-0.1951
+Amino acids -5 %,haugh_units,"XGBoost, monotonic",-0.2777
+Amino acids -5 %,haugh_units,"XGBoost, unconstrained",0.0683
+Amino acids +5 %,hen_day_pct,Truth,2.8647
+Amino acids +5 %,hen_day_pct,"Ridge, broken-line features",3.2698
+Amino acids +5 %,hen_day_pct,"XGBoost, monotonic",3.4811
+Amino acids +5 %,hen_day_pct,"XGBoost, unconstrained",2.1316
+Amino acids +5 %,egg_weight_g,Truth,0.599
+Amino acids +5 %,egg_weight_g,"Ridge, broken-line features",0.5806
+Amino acids +5 %,egg_weight_g,"XGBoost, monotonic",0.6582
+Amino acids +5 %,egg_weight_g,"XGBoost, unconstrained",0.5591
+Amino acids +5 %,breaking_strength_n,Truth,0.0
+Amino acids +5 %,breaking_strength_n,"Ridge, broken-line features",0.0
+Amino acids +5 %,breaking_strength_n,"XGBoost, monotonic",0.0
+Amino acids +5 %,breaking_strength_n,"XGBoost, unconstrained",0.0
+Amino acids +5 %,haugh_units,Truth,0.1263
+Amino acids +5 %,haugh_units,"Ridge, broken-line features",0.1388
+Amino acids +5 %,haugh_units,"XGBoost, monotonic",0.2758
+Amino acids +5 %,haugh_units,"XGBoost, unconstrained",0.133
+Calcium -10 %,hen_day_pct,Truth,-0.8514
+Calcium -10 %,hen_day_pct,"Ridge, broken-line features",0.0
+Calcium -10 %,hen_day_pct,"XGBoost, monotonic",0.0
+Calcium -10 %,hen_day_pct,"XGBoost, unconstrained",0.0
+Calcium -10 %,egg_weight_g,Truth,0.0
+Calcium -10 %,egg_weight_g,"Ridge, broken-line features",0.0
+Calcium -10 %,egg_weight_g,"XGBoost, monotonic",0.0
+Calcium -10 %,egg_weight_g,"XGBoost, unconstrained",0.0
+Calcium -10 %,breaking_strength_n,Truth,-2.3369
+Calcium -10 %,breaking_strength_n,"Ridge, broken-line features",-2.387
+Calcium -10 %,breaking_strength_n,"XGBoost, monotonic",-2.1312
+Calcium -10 %,breaking_strength_n,"XGBoost, unconstrained",-1.8657
+Calcium -10 %,haugh_units,Truth,0.0
+Calcium -10 %,haugh_units,"Ridge, broken-line features",0.0
+Calcium -10 %,haugh_units,"XGBoost, monotonic",0.0
+Calcium -10 %,haugh_units,"XGBoost, unconstrained",0.0
+Calcium +10 %,hen_day_pct,Truth,0.0009
+Calcium +10 %,hen_day_pct,"Ridge, broken-line features",0.0
+Calcium +10 %,hen_day_pct,"XGBoost, monotonic",0.0
+Calcium +10 %,hen_day_pct,"XGBoost, unconstrained",0.0
+Calcium +10 %,egg_weight_g,Truth,0.0
+Calcium +10 %,egg_weight_g,"Ridge, broken-line features",0.0
+Calcium +10 %,egg_weight_g,"XGBoost, monotonic",0.0
+Calcium +10 %,egg_weight_g,"XGBoost, unconstrained",0.0
+Calcium +10 %,breaking_strength_n,Truth,1.5016
+Calcium +10 %,breaking_strength_n,"Ridge, broken-line features",1.55
+Calcium +10 %,breaking_strength_n,"XGBoost, monotonic",1.6756
+Calcium +10 %,breaking_strength_n,"XGBoost, unconstrained",1.309
+Calcium +10 %,haugh_units,Truth,0.0
+Calcium +10 %,haugh_units,"Ridge, broken-line features",0.0
+Calcium +10 %,haugh_units,"XGBoost, monotonic",0.0
+Calcium +10 %,haugh_units,"XGBoost, unconstrained",0.0
+Available P -15 %,hen_day_pct,Truth,-3.1539
+Available P -15 %,hen_day_pct,"Ridge, broken-line features",-2.0418
+Available P -15 %,hen_day_pct,"XGBoost, monotonic",-5.089
+Available P -15 %,hen_day_pct,"XGBoost, unconstrained",-0.6713
+Available P -15 %,egg_weight_g,Truth,0.0
+Available P -15 %,egg_weight_g,"Ridge, broken-line features",0.0
+Available P -15 %,egg_weight_g,"XGBoost, monotonic",0.0
+Available P -15 %,egg_weight_g,"XGBoost, unconstrained",0.0
+Available P -15 %,breaking_strength_n,Truth,-0.8965
+Available P -15 %,breaking_strength_n,"Ridge, broken-line features",-1.2553
+Available P -15 %,breaking_strength_n,"XGBoost, monotonic",-0.8396
+Available P -15 %,breaking_strength_n,"XGBoost, unconstrained",0.2163
+Available P -15 %,haugh_units,Truth,0.0
+Available P -15 %,haugh_units,"Ridge, broken-line features",0.0
+Available P -15 %,haugh_units,"XGBoost, monotonic",0.0
+Available P -15 %,haugh_units,"XGBoost, unconstrained",0.0
+Coarse limestone 30 %,hen_day_pct,Truth,0.0
+Coarse limestone 30 %,hen_day_pct,"Ridge, broken-line features",0.0
+Coarse limestone 30 %,hen_day_pct,"XGBoost, monotonic",0.0
+Coarse limestone 30 %,hen_day_pct,"XGBoost, unconstrained",0.0
+Coarse limestone 30 %,egg_weight_g,Truth,0.0
+Coarse limestone 30 %,egg_weight_g,"Ridge, broken-line features",0.0
+Coarse limestone 30 %,egg_weight_g,"XGBoost, monotonic",0.0
+Coarse limestone 30 %,egg_weight_g,"XGBoost, unconstrained",0.0
+Coarse limestone 30 %,breaking_strength_n,Truth,-1.5271
+Coarse limestone 30 %,breaking_strength_n,"Ridge, broken-line features",-1.2916
+Coarse limestone 30 %,breaking_strength_n,"XGBoost, monotonic",-1.3984
+Coarse limestone 30 %,breaking_strength_n,"XGBoost, unconstrained",-1.0633
+Coarse limestone 30 %,haugh_units,Truth,0.0
+Coarse limestone 30 %,haugh_units,"Ridge, broken-line features",0.0
+Coarse limestone 30 %,haugh_units,"XGBoost, monotonic",0.0
+Coarse limestone 30 %,haugh_units,"XGBoost, unconstrained",0.0
+Coarse limestone 70 %,hen_day_pct,Truth,0.0
+Coarse limestone 70 %,hen_day_pct,"Ridge, broken-line features",0.0
+Coarse limestone 70 %,hen_day_pct,"XGBoost, monotonic",0.0
+Coarse limestone 70 %,hen_day_pct,"XGBoost, unconstrained",0.0
+Coarse limestone 70 %,egg_weight_g,Truth,0.0
+Coarse limestone 70 %,egg_weight_g,"Ridge, broken-line features",0.0
+Coarse limestone 70 %,egg_weight_g,"XGBoost, monotonic",0.0
+Coarse limestone 70 %,egg_weight_g,"XGBoost, unconstrained",0.0
+Coarse limestone 70 %,breaking_strength_n,Truth,0.3929
+Coarse limestone 70 %,breaking_strength_n,"Ridge, broken-line features",0.3229
+Coarse limestone 70 %,breaking_strength_n,"XGBoost, monotonic",0.3479
+Coarse limestone 70 %,breaking_strength_n,"XGBoost, unconstrained",0.2705
+Coarse limestone 70 %,haugh_units,Truth,0.0
+Coarse limestone 70 %,haugh_units,"Ridge, broken-line features",0.0
+Coarse limestone 70 %,haugh_units,"XGBoost, monotonic",0.0
+Coarse limestone 70 %,haugh_units,"XGBoost, unconstrained",0.0
+Linoleic acid -30 %,hen_day_pct,Truth,0.0
+Linoleic acid -30 %,hen_day_pct,"Ridge, broken-line features",0.0
+Linoleic acid -30 %,hen_day_pct,"XGBoost, monotonic",0.0
+Linoleic acid -30 %,hen_day_pct,"XGBoost, unconstrained",0.0
+Linoleic acid -30 %,egg_weight_g,Truth,-0.4056
+Linoleic acid -30 %,egg_weight_g,"Ridge, broken-line features",-0.3261
+Linoleic acid -30 %,egg_weight_g,"XGBoost, monotonic",-0.4006
+Linoleic acid -30 %,egg_weight_g,"XGBoost, unconstrained",-0.185
+Linoleic acid -30 %,breaking_strength_n,Truth,0.0
+Linoleic acid -30 %,breaking_strength_n,"Ridge, broken-line features",0.0
+Linoleic acid -30 %,breaking_strength_n,"XGBoost, monotonic",0.0
+Linoleic acid -30 %,breaking_strength_n,"XGBoost, unconstrained",0.0
+Linoleic acid -30 %,haugh_units,Truth,0.0
+Linoleic acid -30 %,haugh_units,"Ridge, broken-line features",0.0
+Linoleic acid -30 %,haugh_units,"XGBoost, monotonic",0.0
+Linoleic acid -30 %,haugh_units,"XGBoost, unconstrained",0.0

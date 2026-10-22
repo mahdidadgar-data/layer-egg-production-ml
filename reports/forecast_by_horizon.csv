@@ -1,0 +1,85 @@
+method,horizon,mae,n
+Breed standard,1,6.4004,1743
+Breed standard,2,6.395,1738
+Breed standard,3,6.4446,1710
+Breed standard,4,6.4399,1678
+Breed standard,5,6.4671,1642
+Breed standard,6,6.4921,1629
+Breed standard,7,6.5457,1598
+Breed standard,8,6.5498,1558
+Breed standard,9,6.5652,1521
+Breed standard,10,6.5908,1506
+Breed standard,11,6.669,1471
+Breed standard,12,6.6741,1432
+Breed standard,all (cutoff >= 32 wk),6.72,16193
+Breed standard,"all, during a disease episode",9.984,2196
+Last week carried forward,1,1.5034,1743
+Last week carried forward,2,2.0327,1738
+Last week carried forward,3,2.463,1710
+Last week carried forward,4,2.6528,1678
+Last week carried forward,5,2.9451,1642
+Last week carried forward,6,3.2035,1629
+Last week carried forward,7,3.5262,1598
+Last week carried forward,8,3.6852,1558
+Last week carried forward,9,3.9439,1521
+Last week carried forward,10,4.2262,1506
+Last week carried forward,11,4.452,1471
+Last week carried forward,12,4.6119,1432
+Last week carried forward,all (cutoff >= 32 wk),3.0098,16193
+Last week carried forward,"all, during a disease episode",3.2244,2196
+Standard x recent ratio,1,2.0146,1743
+Standard x recent ratio,2,2.2783,1738
+Standard x recent ratio,3,2.5104,1710
+Standard x recent ratio,4,2.5878,1678
+Standard x recent ratio,5,2.7216,1642
+Standard x recent ratio,6,2.8706,1629
+Standard x recent ratio,7,3.046,1598
+Standard x recent ratio,8,3.1154,1558
+Standard x recent ratio,9,3.179,1521
+Standard x recent ratio,10,3.2815,1506
+Standard x recent ratio,11,3.4042,1471
+Standard x recent ratio,12,3.4632,1432
+Standard x recent ratio,all (cutoff >= 32 wk),2.2629,16193
+Standard x recent ratio,"all, during a disease episode",3.44,2196
+Yang curve refitted to weeks so far,1,2.3151,1487
+Yang curve refitted to weeks so far,2,2.5145,1481
+Yang curve refitted to weeks so far,3,2.7685,1458
+Yang curve refitted to weeks so far,4,2.8909,1423
+Yang curve refitted to weeks so far,5,3.0701,1388
+Yang curve refitted to weeks so far,6,3.2906,1373
+Yang curve refitted to weeks so far,7,3.5573,1348
+Yang curve refitted to weeks so far,8,3.6857,1305
+Yang curve refitted to weeks so far,9,3.8641,1271
+Yang curve refitted to weeks so far,10,4.1603,1256
+Yang curve refitted to weeks so far,11,4.3745,1222
+Yang curve refitted to weeks so far,12,4.5394,1181
+Yang curve refitted to weeks so far,all (cutoff >= 32 wk),3.3684,16193
+Yang curve refitted to weeks so far,"all, during a disease episode",4.5275,2059
+Planning model (no records),1,3.0661,1743
+Planning model (no records),2,3.0841,1738
+Planning model (no records),3,3.0274,1710
+Planning model (no records),4,3.0589,1678
+Planning model (no records),5,3.0543,1642
+Planning model (no records),6,3.0775,1629
+Planning model (no records),7,3.0405,1598
+Planning model (no records),8,3.0801,1558
+Planning model (no records),9,3.0673,1521
+Planning model (no records),10,3.088,1506
+Planning model (no records),11,3.0586,1471
+Planning model (no records),12,3.0915,1432
+Planning model (no records),all (cutoff >= 32 wk),3.0619,16193
+Planning model (no records),"all, during a disease episode",4.5936,2196
+XGBoost forecast,1,1.5223,1743
+XGBoost forecast,2,1.7789,1738
+XGBoost forecast,3,1.9115,1710
+XGBoost forecast,4,1.964,1678
+XGBoost forecast,5,2.0537,1642
+XGBoost forecast,6,2.1346,1629
+XGBoost forecast,7,2.1711,1598
+XGBoost forecast,8,2.1799,1558
+XGBoost forecast,9,2.2324,1521
+XGBoost forecast,10,2.3117,1506
+XGBoost forecast,11,2.3048,1471
+XGBoost forecast,12,2.3002,1432
+XGBoost forecast,all (cutoff >= 32 wk),2.0058,16193
+XGBoost forecast,"all, during a disease episode",2.4341,2196

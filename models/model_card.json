@@ -1,0 +1,298 @@
+{
+  "model_version": "1.0.0",
+  "trained_on": "2026-10-22",
+  "data": {
+    "description": "Synthetic layer flocks built on published Lohmann Brown-Classic and Hy-Line W-80 standards; effects of diet, housing, climate and disease are assumptions.",
+    "n_flocks": 622,
+    "n_farms": 52,
+    "n_weekly_records": 38448,
+    "n_quality_samples": 8259,
+    "validation": "11 farms held out (130 flocks); final models refitted on all 52 farms"
+  },
+  "planning_models": {
+    "hen_day_pct": {
+      "model": "XGBoost, monotonic",
+      "why": "Most accurate on held-out farms with the right direction for every diet effect. The unconstrained version was slightly more accurate but missed the effect of available phosphorus.",
+      "features": [
+        "age_wk",
+        "std_hd",
+        "strain_w80",
+        "housing_barn",
+        "housing_free_range",
+        "zone_warm",
+        "pullet_bw_pct",
+        "photostim_age_wk",
+        "expected_temp_c",
+        "heat_load",
+        "me_kcal",
+        "r_lys",
+        "r_mc",
+        "r_aa",
+        "r_avp",
+        "def_aa",
+        "def_avp",
+        "cum_aa_deficit"
+      ],
+      "test": {
+        "rmse": 4.6032473616578535,
+        "mae": 3.2818587774138366,
+        "r2": 0.902726331048449
+      },
+      "interval_90_halfwidth_by_age": {
+        "19-23": 13.839870666503908,
+        "24-40": 5.529065856933599,
+        "41-60": 5.844512939453133,
+        "61-90": 5.918245544433589
+      },
+      "interval_90_coverage_test": 0.8789371354504213,
+      "n_train_rows": 29975,
+      "n_test_rows": 7715
+    },
+    "egg_weight_g": {
+      "model": "Ridge, broken-line features",
+      "why": "Most accurate on held-out farms and closest to the true response to amino acids and linoleic acid.",
+      "features": [
+        "age_wk",
+        "std_ew",
+        "strain_w80",
+        "housing_barn",
+        "housing_free_range",
+        "zone_warm",
+        "pullet_bw_pct",
+        "photostim_age_wk",
+        "expected_temp_c",
+        "heat_load",
+        "me_kcal",
+        "r_lys",
+        "r_mc",
+        "r_aa",
+        "def_aa",
+        "la_gap_g"
+      ],
+      "test": {
+        "rmse": 1.1889689872776974,
+        "mae": 0.9674151030970449,
+        "r2": 0.9480968470850749
+      },
+      "interval_90_halfwidth_by_age": {
+        "19-23": 2.1364184713638013,
+        "24-40": 2.0921529084009323,
+        "41-60": 2.118357630991408,
+        "61-90": 2.109894488327287
+      },
+      "interval_90_coverage_test": 0.9245632609846479,
+      "n_train_rows": 29309,
+      "n_test_rows": 7556
+    },
+    "breaking_strength_n": {
+      "model": "Ridge, broken-line features",
+      "why": "Most accurate on held-out farms; response to calcium and coarse limestone close to the truth.",
+      "features": [
+        "age_wk",
+        "std_bs",
+        "strain_w80",
+        "housing_barn",
+        "housing_free_range",
+        "zone_warm",
+        "pullet_bw_pct",
+        "photostim_age_wk",
+        "expected_temp_c",
+        "heat_load",
+        "r_ca",
+        "def_ca",
+        "r_avp",
+        "def_avp",
+        "coarse_ca_share",
+        "coarse_x_age"
+      ],
+      "test": {
+        "rmse": 2.5861018221355017,
+        "mae": 2.0133159522867934,
+        "r2": 0.8498454173003257
+      },
+      "interval_90_halfwidth_by_age": {
+        "19-23": 4.456863532589857,
+        "24-40": 4.459902531126765,
+        "41-60": 4.342870866410896,
+        "61-90": 4.518844649244514
+      },
+      "interval_90_coverage_test": 0.9127123608670181,
+      "n_train_rows": 6552,
+      "n_test_rows": 1707
+    },
+    "haugh_units": {
+      "model": "Ridge, broken-line features",
+      "why": "Only slightly better than the breed curve: in this data Haugh units depend mostly on age.",
+      "features": [
+        "age_wk",
+        "std_hu",
+        "strain_w80",
+        "housing_barn",
+        "housing_free_range",
+        "zone_warm",
+        "pullet_bw_pct",
+        "photostim_age_wk",
+        "expected_temp_c",
+        "heat_load",
+        "r_lys",
+        "r_aa",
+        "def_aa"
+      ],
+      "test": {
+        "rmse": 2.023978496755921,
+        "mae": 1.6278813626810902,
+        "r2": 0.7158806516539273
+      },
+      "interval_90_halfwidth_by_age": {
+        "19-23": 2.6155048348086183,
+        "24-40": 2.5742843045334354,
+        "41-60": 2.694465819648851,
+        "61-90": 2.651079288320119
+      },
+      "interval_90_coverage_test": 0.799062683069713,
+      "n_train_rows": 6552,
+      "n_test_rows": 1707
+    }
+  },
+  "forecast_model": {
+    "model": "XGBoost on deviation from breed standard",
+    "features": [
+      "cutoff_age",
+      "horizon",
+      "strain_w80",
+      "housing_barn",
+      "housing_free_range",
+      "zone_warm",
+      "std_hd_target",
+      "std_hd_cutoff",
+      "dev_last",
+      "dev_mean4",
+      "dev_mean8",
+      "dev_slope4",
+      "recovery6",
+      "weeks_since_min6",
+      "hd_ratio4",
+      "fi_ratio2",
+      "fi_change",
+      "mort4",
+      "ew_dev2",
+      "temp_anom2",
+      "expected_temp_target",
+      "r_aa_target",
+      "r_ca_target",
+      "r_avp_target",
+      "phase_change"
+    ],
+    "cutoffs_wk": [
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      68,
+      72,
+      76,
+      80
+    ],
+    "test_mae_by_horizon": {
+      "1": 1.5223032213939853,
+      "2": 1.7788798690478398,
+      "3": 1.9114685753900231,
+      "4": 1.9639639738329973,
+      "5": 2.0536793529433757,
+      "6": 2.1345550571187206,
+      "7": 2.1711025884056996,
+      "8": 2.17991395243593,
+      "9": 2.232424842976793,
+      "10": 2.311743357878717,
+      "11": 2.30483230903694,
+      "12": 2.3002397217545343
+    },
+    "interval_90_halfwidth_by_horizon": {
+      "1": 3.0226147994995083,
+      "2": 3.5259179592132552,
+      "3": 3.824556159973156,
+      "4": 4.09606267547608,
+      "5": 4.28828803062439,
+      "6": 4.447480516433719,
+      "7": 4.485021709442141,
+      "8": 4.725727981567383,
+      "9": 4.6660360832214405,
+      "10": 4.6318382873535215,
+      "11": 4.61714095211029,
+      "12": 4.657643705368034
+    },
+    "interval_90_coverage_test": 0.8946218662228232,
+    "n_train_rows": 74922,
+    "n_test_rows": 19226
+  },
+  "input_ranges_p01_p99": {
+    "pullet_bw_pct": [
+      90.4,
+      109.2
+    ],
+    "photostim_age_wk": [
+      16.0,
+      19.0
+    ],
+    "me_kcal": [
+      2604.0,
+      2846.0
+    ],
+    "r_lys": [
+      0.8779650728427344,
+      1.1349855347451243
+    ],
+    "r_mc": [
+      0.8676719093792632,
+      1.138141469205372
+    ],
+    "r_ca": [
+      0.8716913807728245,
+      1.1432220139537284
+    ],
+    "r_avp": [
+      0.8171104290602549,
+      1.185742795912248
+    ],
+    "la_gap_g": [
+      -0.6049008616756716,
+      0.7959957643251472
+    ],
+    "coarse_ca_share": [
+      0.15,
+      0.9
+    ],
+    "expected_temp_c": [
+      17.17807083472249,
+      29.374197995427615
+    ]
+  },
+  "strains": [
+    "Hy-Line W-80",
+    "Lohmann Brown-Classic"
+  ],
+  "housing": [
+    "barn",
+    "enriched cage",
+    "free range"
+  ],
+  "climate_zones": [
+    "temperate",
+    "warm"
+  ],
+  "software": {
+    "python": "3.13.16",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3"
+  },
+  "intended_use": "Portfolio demonstration of planning and forecasting layer flock performance. Not for real feeding or management decisions."
+}

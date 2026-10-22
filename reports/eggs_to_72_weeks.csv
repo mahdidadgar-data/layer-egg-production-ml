@@ -1,0 +1,7 @@
+model,mae_eggs,bias_eggs,n_flocks
+Breed standard,24.12,24.12,118
+Training average by strain and age,11.32,4.81,118
+"Ridge, broken-line features",8.83,4.61,118
+"XGBoost, monotonic",9.34,5.72,118
+"XGBoost, unconstrained",8.82,4.74,118
+"Yang curve, parameters from flock plan",8.67,4.57,118

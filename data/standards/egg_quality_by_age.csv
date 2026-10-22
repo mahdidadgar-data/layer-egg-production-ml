@@ -1,0 +1,12 @@
+measure,strain,week,value,unit,source
+haugh_units,Hy-Line Brown,38,90.0,HU,Hy-Line Brown Performance Standards Guide (Dec 2025)
+haugh_units,Hy-Line Brown,56,84.0,HU,Hy-Line Brown Performance Standards Guide (Dec 2025)
+haugh_units,Hy-Line Brown,72,81.0,HU,Hy-Line Brown Performance Standards Guide (Dec 2025)
+haugh_units,Hy-Line Brown,90,79.7,HU,Hy-Line Brown Performance Standards Guide (Dec 2025)
+haugh_units,Hy-Line W-80,38,88.1,HU,Hy-Line W-80 Performance Standards Guide (Apr 2026)
+haugh_units,Hy-Line W-80,56,85.6,HU,Hy-Line W-80 Performance Standards Guide (Apr 2026)
+haugh_units,Hy-Line W-80,70,83.7,HU,Hy-Line W-80 Performance Standards Guide (Apr 2026)
+haugh_units,Hy-Line W-80,100,80.0,HU,Hy-Line W-80 Performance Standards Guide (Apr 2026)
+breaking_strength,LSL hens,33,57.1,N,Benavides-Reyes et al. (2021) Poultry Science 100:101287; 5.824 kgf x 9.81
+breaking_strength,LSL hens,45,52.1,N,Benavides-Reyes et al. (2021) Poultry Science 100:101287; 5.311 kgf x 9.81
+breaking_strength,LSL hens,67,43.1,N,Benavides-Reyes et al. (2021) Poultry Science 100:101287; 4.391 kgf x 9.81

@@ -1,0 +1,224 @@
+{
+  "flock": {
+    "strain": "Lohmann Brown-Classic",
+    "housing": "barn",
+    "climate_zone": "temperate",
+    "first_record_date": "2026-03-02",
+    "pullet_bw_pct": 101.0,
+    "photostim_age_wk": 17,
+    "phase2_start_wk": 50,
+    "phase3_start_wk": 70,
+    "end_age_wk": 80,
+    "diets": {
+      "phase1": {
+        "me_kcal": 2725,
+        "cp_pct": 16.6,
+        "dlys_pct": 0.73,
+        "dmc_pct": 0.66,
+        "ca_pct": 3.65,
+        "avp_pct": 0.37,
+        "coarse_ca_share": 0.6,
+        "la_pct": 1.8
+      },
+      "phase2": {
+        "me_kcal": 2725,
+        "cp_pct": 16.0,
+        "dlys_pct": 0.71,
+        "dmc_pct": 0.64,
+        "ca_pct": 3.9,
+        "avp_pct": 0.35,
+        "coarse_ca_share": 0.7,
+        "la_pct": 1.45
+      },
+      "phase3": {
+        "me_kcal": 2700,
+        "cp_pct": 15.1,
+        "dlys_pct": 0.68,
+        "dmc_pct": 0.61,
+        "ca_pct": 3.95,
+        "avp_pct": 0.33,
+        "coarse_ca_share": 0.8,
+        "la_pct": 1.15
+      }
+    }
+  },
+  "history": [
+    {
+      "age_wk": 19,
+      "hen_day_pct": 1.02,
+      "feed_intake_g": 89.2,
+      "egg_weight_g": 46.55,
+      "mortality_pct": 0.047,
+      "house_temp_max_c": 17.9
+    },
+    {
+      "age_wk": 20,
+      "hen_day_pct": 6.57,
+      "feed_intake_g": 98.5,
+      "egg_weight_g": null,
+      "mortality_pct": 0.071,
+      "house_temp_max_c": 19.9
+    },
+    {
+      "age_wk": 21,
+      "hen_day_pct": 25.97,
+      "feed_intake_g": 101.0,
+      "egg_weight_g": 49.06,
+      "mortality_pct": 0.053,
+      "house_temp_max_c": 18.4
+    },
+    {
+      "age_wk": 22,
+      "hen_day_pct": 46.36,
+      "feed_intake_g": 106.5,
+      "egg_weight_g": 51.93,
+      "mortality_pct": 0.047,
+      "house_temp_max_c": 19.3
+    },
+    {
+      "age_wk": 23,
+      "hen_day_pct": 62.64,
+      "feed_intake_g": 110.6,
+      "egg_weight_g": 53.42,
+      "mortality_pct": 0.072,
+      "house_temp_max_c": 16.6
+    },
+    {
+      "age_wk": 24,
+      "hen_day_pct": 74.81,
+      "feed_intake_g": 111.6,
+      "egg_weight_g": 55.67,
+      "mortality_pct": 0.098,
+      "house_temp_max_c": 19.6
+    },
+    {
+      "age_wk": 25,
+      "hen_day_pct": 82.48,
+      "feed_intake_g": 114.9,
+      "egg_weight_g": 57.84,
+      "mortality_pct": 0.073,
+      "house_temp_max_c": 19.3
+    },
+    {
+      "age_wk": 26,
+      "hen_day_pct": 84.26,
+      "feed_intake_g": 113.4,
+      "egg_weight_g": 59.26,
+      "mortality_pct": 0.054,
+      "house_temp_max_c": 19.4
+    },
+    {
+      "age_wk": 27,
+      "hen_day_pct": 86.94,
+      "feed_intake_g": 117.6,
+      "egg_weight_g": 60.27,
+      "mortality_pct": 0.047,
+      "house_temp_max_c": 20.4
+    },
+    {
+      "age_wk": 28,
+      "hen_day_pct": 88.25,
+      "feed_intake_g": 118.0,
+      "egg_weight_g": 61.74,
+      "mortality_pct": 0.105,
+      "house_temp_max_c": 20.2
+    },
+    {
+      "age_wk": 29,
+      "hen_day_pct": 88.97,
+      "feed_intake_g": 118.7,
+      "egg_weight_g": 63.01,
+      "mortality_pct": 0.071,
+      "house_temp_max_c": 19.3
+    },
+    {
+      "age_wk": 30,
+      "hen_day_pct": 90.33,
+      "feed_intake_g": 114.2,
+      "egg_weight_g": null,
+      "mortality_pct": 0.062,
+      "house_temp_max_c": 22.6
+    },
+    {
+      "age_wk": 31,
+      "hen_day_pct": 90.19,
+      "feed_intake_g": 113.6,
+      "egg_weight_g": 62.84,
+      "mortality_pct": 0.08,
+      "house_temp_max_c": 22.5
+    },
+    {
+      "age_wk": 32,
+      "hen_day_pct": 90.6,
+      "feed_intake_g": 113.0,
+      "egg_weight_g": 63.32,
+      "mortality_pct": 0.086,
+      "house_temp_max_c": 22.6
+    },
+    {
+      "age_wk": 33,
+      "hen_day_pct": 90.86,
+      "feed_intake_g": 114.5,
+      "egg_weight_g": 64.77,
+      "mortality_pct": 0.058,
+      "house_temp_max_c": 22.6
+    },
+    {
+      "age_wk": 34,
+      "hen_day_pct": 89.84,
+      "feed_intake_g": 114.3,
+      "egg_weight_g": 64.17,
+      "mortality_pct": 0.07,
+      "house_temp_max_c": 22.8
+    },
+    {
+      "age_wk": 35,
+      "hen_day_pct": 87.62,
+      "feed_intake_g": 108.1,
+      "egg_weight_g": 63.36,
+      "mortality_pct": 0.101,
+      "house_temp_max_c": 24.9
+    },
+    {
+      "age_wk": 36,
+      "hen_day_pct": 88.18,
+      "feed_intake_g": 105.9,
+      "egg_weight_g": 63.63,
+      "mortality_pct": 0.06,
+      "house_temp_max_c": 26.7
+    },
+    {
+      "age_wk": 37,
+      "hen_day_pct": 89.17,
+      "feed_intake_g": null,
+      "egg_weight_g": null,
+      "mortality_pct": 0.067,
+      "house_temp_max_c": 26.0
+    },
+    {
+      "age_wk": 38,
+      "hen_day_pct": 90.94,
+      "feed_intake_g": 113.3,
+      "egg_weight_g": 65.11,
+      "mortality_pct": 0.061,
+      "house_temp_max_c": 25.1
+    },
+    {
+      "age_wk": 39,
+      "hen_day_pct": 89.11,
+      "feed_intake_g": 107.4,
+      "egg_weight_g": 64.0,
+      "mortality_pct": 0.063,
+      "house_temp_max_c": 27.0
+    },
+    {
+      "age_wk": 40,
+      "hen_day_pct": 88.53,
+      "feed_intake_g": 106.6,
+      "egg_weight_g": 64.19,
+      "mortality_pct": 0.069,
+      "house_temp_max_c": 27.2
+    }
+  ],
+  "horizon_weeks": 12
+}

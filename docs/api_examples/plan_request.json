@@ -1,0 +1,43 @@
+{
+  "strain": "Lohmann Brown-Classic",
+  "housing": "barn",
+  "climate_zone": "temperate",
+  "first_record_date": "2026-03-02",
+  "pullet_bw_pct": 101.0,
+  "photostim_age_wk": 17,
+  "phase2_start_wk": 50,
+  "phase3_start_wk": 70,
+  "end_age_wk": 80,
+  "diets": {
+    "phase1": {
+      "me_kcal": 2725,
+      "cp_pct": 16.6,
+      "dlys_pct": 0.73,
+      "dmc_pct": 0.66,
+      "ca_pct": 3.65,
+      "avp_pct": 0.37,
+      "coarse_ca_share": 0.6,
+      "la_pct": 1.8
+    },
+    "phase2": {
+      "me_kcal": 2725,
+      "cp_pct": 16.0,
+      "dlys_pct": 0.71,
+      "dmc_pct": 0.64,
+      "ca_pct": 3.9,
+      "avp_pct": 0.35,
+      "coarse_ca_share": 0.7,
+      "la_pct": 1.45
+    },
+    "phase3": {
+      "me_kcal": 2700,
+      "cp_pct": 15.1,
+      "dlys_pct": 0.68,
+      "dmc_pct": 0.61,
+      "ca_pct": 3.95,
+      "avp_pct": 0.33,
+      "coarse_ca_share": 0.8,
+      "la_pct": 1.15
+    }
+  }
+}
