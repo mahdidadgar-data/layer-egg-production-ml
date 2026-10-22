@@ -2,6 +2,8 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://layer-flock-planner.streamlit.app/)
 
+**Live app:** https://layer-flock-planner.streamlit.app/ · **Live API:** https://layer-egg-production-ml.onrender.com/docs (free hosting: the first request after 15 minutes without use takes about a minute)
+
 Machine learning models that plan the laying curve, egg weight and egg quality of a layer flock before it starts laying, and forecast hen-day production of a running flock 1 to 12 weeks ahead. The models are served through a REST API in a Docker container and through a Streamlit app.
 
 **Author:** Mahdi Dadgar, PhD in Animal Nutrition and Feed Science
@@ -97,6 +99,8 @@ Haugh units are an honest negative result. In this data they depend mostly on ag
 The same prediction code (`src/predict.py`) serves two front ends, so they always agree.
 
 **REST API** (FastAPI, in a Docker container)
+
+Live on Render: https://layer-egg-production-ml.onrender.com/docs
 
 | Endpoint | What it does |
 |---|---|
